@@ -1,4 +1,4 @@
 <header>
-    <h1>trying wordpress</h1>
+    <h1>this is a header</h1>
     <?php wp_head (); ?>
 </header>
