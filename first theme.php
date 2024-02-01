@@ -1,15 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>csssss</title>
+  <title>wordpress</title>
+
 </head>
 <body>
+<?php wp_nav_menu(array ('theme_location'=>'firsttheme_mainmenu','depth'=>2)); ?>
   <?php get_header(); ?>
 
   <section>
+  
     <article>
       <h1>London</h1>
       <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
@@ -34,3 +36,4 @@
 
 </body>
 </html>
+
