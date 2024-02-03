@@ -7,6 +7,7 @@
 </head>
 <body>
 
+
 <?php get_header(); ?>
 <section>
 <?php
@@ -19,9 +20,9 @@ wp_nav_menu( array(
 ?>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1>BOOK LOVER</h1>
+    <p>In the company of books,silence is the sweetest conversation</p>
+    <p>Each book a silent mentor ,waiting to share its wisdom to whom who seeks</p>
   </article>
 </section>
 
@@ -40,16 +41,21 @@ if ( have_posts() ) :
 endif;
 ?>
 <div class="main-2">
-  <div class="sidebar">
-    <h1>Wordpress</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, earum eveniet! Eum distinctio deserunt provident dolorem recusandae et natus magnam!</p>
-  </div>
-  <div class="sidebar-display">
-    <?php get_sidebar() ?>
-  </div>
+ <div class="sidebar">
+  <h1>BOOK LOVER</h1>
+  <p>Each book a silent mentor ,waiting to share its wisdom to whom who seeks</p>
+ </div>
+ <div class="sidebar_display">
+  <?php get_sidebar() ?>
+
+ </div>
 </div>
+
 
 <?php get_footer(); ?>
 
 </body>
 </html>
+
+
+
